@@ -1,117 +1,109 @@
 # Dummy Jira Sprint Plan — Online Hospital Appointment System
 
 **Planning window:** 17–26 November 2026  
-**Status:** Illustrative / dummy plan — not evidence of actual work performed  
-**Repository:** https://github.com/Ashish-AIML-systems/online-hospital-appointment-system
+**Status:** Illustrative planning data only; not a record of work completed  
+**Repository:** https://github.com/Ashish-AIML-systems/online-hospital-appointment-system  
+**Timezone:** IST (Asia/Kolkata)
 
-## Team
+## Team allocation
 
-| Member | Workstream |
-|---|---|
-| Ashish | Environment, backend, integration and testing |
-| Medha | Requirements, shared frontend and patient pages |
-| Nithin | Database, architecture, doctor/admin pages and deployment |
-| Manya | Cost, schedule, risk and final report |
-
-## Ticket plan
-
-| Ticket | Type | Assignee | Start | Due | Estimate (h) | Priority |
-|---|---|---|---|---|---:|---|
-| OHAMS-26 — Initialize Next.js project and development environment | Story | Ashish | 17 Nov 2026 | 17 Nov 2026 | 4 | High |
-| OHAMS-1 — Gather requirements and define project scope | Story | Medha | 17 Nov 2026 | 18 Nov 2026 | 4 | Medium |
-| OHAMS-2 — Design database schema and data relationships | Epic | Nithin | 17 Nov 2026 | 19 Nov 2026 | 5 | Medium |
-| OHAMS-3 — Backend implementation epic | Epic | Ashish | 18 Nov 2026 | 25 Nov 2026 | 0 | Medium |
-| OHAMS-4 — Build shared frontend components and API helper | Story | Medha | 18 Nov 2026 | 19 Nov 2026 | 5 | Medium |
-| OHAMS-5 — Integration and testing epic | Epic | Ashish | 24 Nov 2026 | 26 Nov 2026 | 0 | Medium |
-| OHAMS-6 — Deploy application to Vercel | Story | Nithin | 25 Nov 2026 | 26 Nov 2026 | 3 | Medium |
-| OHAMS-7 — Project documentation epic | Epic | Manya | 18 Nov 2026 | 26 Nov 2026 | 0 | Medium |
-| OHAMS-8 — Implement patient-facing pages | Story | Medha | 19 Nov 2026 | 21 Nov 2026 | 6 | Medium |
-| OHAMS-9 — Build patient appointment booking interface | Story | Medha | 19 Nov 2026 | 21 Nov 2026 | 5 | Medium |
-| OHAMS-10 — Implement PostgreSQL schema and database helpers | Story | Nithin | 18 Nov 2026 | 19 Nov 2026 | 6 | Medium |
-| OHAMS-11 — Build doctor dashboard and slot management | Story | Nithin | 20 Nov 2026 | 23 Nov 2026 | 7 | Medium |
-| OHAMS-12 — Build admin dashboard and doctor management | Story | Nithin | 20 Nov 2026 | 23 Nov 2026 | 6 | Medium |
-| OHAMS-13 — Implement appointment booking API | Story | Ashish | 20 Nov 2026 | 23 Nov 2026 | 6 | High |
-| OHAMS-14 — Implement appointment cancellation API | Story | Ashish | 23 Nov 2026 | 24 Nov 2026 | 4 | High |
-| OHAMS-15 — Implement notifications API and helper | Story | Ashish | 23 Nov 2026 | 24 Nov 2026 | 4 | Medium |
-| OHAMS-16 — Implement doctor and slot APIs | Story | Ashish | 20 Nov 2026 | 23 Nov 2026 | 5 | Medium |
-| OHAMS-17 — Complete patient appointment listing and notifications UI | Story | Medha | 21 Nov 2026 | 24 Nov 2026 | 4 | Medium |
-| OHAMS-18 — Configure deployment and production environment | Story | Nithin | 24 Nov 2026 | 25 Nov 2026 | 3 | Medium |
-| OHAMS-19 — Integrate frontend and backend modules | Story | Ashish | 24 Nov 2026 | 25 Nov 2026 | 5 | High |
-| OHAMS-20 — Execute end-to-end test suite and record results | Story | Ashish | 25 Nov 2026 | 26 Nov 2026 | 6 | High |
-| OHAMS-21 — Complete deployment smoke test | Story | Nithin | 25 Nov 2026 | 26 Nov 2026 | 2 | Medium |
-| OHAMS-22 — Prepare cost estimation | Story | Manya | 18 Nov 2026 | 20 Nov 2026 | 4 | Medium |
-| OHAMS-23 — Prepare project schedule and Gantt chart | Story | Manya | 19 Nov 2026 | 24 Nov 2026 | 4 | Medium |
-| OHAMS-24 — Prepare risk analysis and mitigation register | Story | Manya | 20 Nov 2026 | 24 Nov 2026 | 4 | Medium |
-| OHAMS-25 — Prepare final project report | Story | Manya | 25 Nov 2026 | 26 Nov 2026 | 8 | Medium |
-| OHAMS-26 — Initialize development environment | Story | Ashish | 17 Nov 2026 | 17 Nov 2026 | 4 | Medium |
-
-## Daily breakdown
-
-### 17 Nov
-Kick-off, environment bootstrap, requirements and schema planning.
-
-### 18 Nov
-Database foundation, shared UI helper, architecture and initial documentation.
-
-### 19 Nov
-Patient pages and booking UI; database validation; cost and schedule documentation.
-
-### 20 Nov
-Doctor/admin dashboard work begins; backend doctor/slot and booking endpoints; patient UI integration.
-
-### 21 Nov
-Complete patient flows; doctor/admin dashboard development continues; review progress.
-
-### 22 Nov
-Sunday buffer: optional async review, backlog grooming and blocker resolution only.
-
-### 23 Nov
-Complete doctor/admin pages; cancellation and notification APIs; API contract verification.
-
-### 24 Nov
-Frontend/backend integration, test preparation, production deployment configuration, risk register.
-
-### 25 Nov
-Execute E2E suite, fix defects, run build, prepare final deployment checks and report draft.
-
-### 26 Nov
-Deployment smoke test, final report consolidation, acceptance review and sprint close.
-
-## Person-wise effort (illustrative)
-
-| Member | Work breakdown | Planned hours |
+| Person | Repository-defined responsibility | Planned effort |
 |---|---|---:|
-| Ashish | Environment 4h; backend 19h; integration 5h; testing 6h | 34 |
-| Medha | Requirements 4h; shared UI 5h; patient pages and flows 15h | 24 |
-| Nithin | Database 6h; doctor/admin UI 13h; deployment 5h | 24 |
-| Manya | Cost 4h; schedule 4h; risk 4h; final report 8h | 20 |
-| **Total** | | **102** |
+| Ashish | Environment, backend APIs, integration and testing | 34 h |
+| Medha | Requirements, shared frontend and patient pages | 24 h |
+| Nithin | Database, architecture, doctor/admin dashboards and deployment | 24 h |
+| Manya | Cost, schedule, risk analysis and final report | 20 h |
+| **Total** | | **102 h** |
 
-## Dependencies / hand-offs
+The assignments follow README §9 and the individual files in `docs/tasks/`. Epic estimates are zero because effort is recorded on the child tasks, avoiding double counting.
 
-1. H0: Ashish environment setup → available to everyone.
-2. H1: Medha requirements and shared frontend foundations.
-3. H2: Nithin database schema/helpers and architecture.
-4. H3: Ashish backend API, built after H2.
-5. H4/H5: Medha patient pages and integration with API.
-6. H6: Nithin doctor/admin screens.
-7. H7: Ashish integration and end-to-end testing.
-8. H8: Nithin deployment.
-9. H9: Manya final documentation after test/deployment evidence exists.
+## Date-wise ticket schedule
 
-## Assumptions
+| Jira key | Summary | Type | Assignee | Planned start | Due date | Estimate (h) | Priority | Parent epic |
+|---|---|---|---|---|---|---:|---|---|
+| OHAMS-1 | Requirements and scope definition | Epic | Medha | 17 Nov 2026 | 21 Nov 2026 | 0 | Medium | — |
+| OHAMS-2 | Database and architecture design | Epic | Nithin | 17 Nov 2026 | 20 Nov 2026 | 0 | Medium | — |
+| OHAMS-3 | Backend API implementation | Epic | Ashish | 18 Nov 2026 | 24 Nov 2026 | 0 | High | — |
+| OHAMS-4 | Shared frontend foundation | Epic | Medha | 18 Nov 2026 | 23 Nov 2026 | 0 | Medium | — |
+| OHAMS-5 | Application integration and testing | Epic | Ashish | 24 Nov 2026 | 26 Nov 2026 | 0 | High | — |
+| OHAMS-6 | Production deployment | Epic | Nithin | 25 Nov 2026 | 26 Nov 2026 | 0 | Medium | — |
+| OHAMS-7 | Project documentation and submission | Epic | Manya | 18 Nov 2026 | 26 Nov 2026 | 0 | Medium | — |
+| OHAMS-8 | Prepare requirements specification | Task | Medha | 17 Nov 2026 | 18 Nov 2026 | 4 | Medium | OHAMS-1 |
+| OHAMS-9 | Document technology stack decision | Task | Medha | 18 Nov 2026 | 19 Nov 2026 | 2 | Low | OHAMS-1 |
+| OHAMS-10 | Create PostgreSQL schema and database helper | Task | Nithin | 18 Nov 2026 | 19 Nov 2026 | 6 | High | OHAMS-2 |
+| OHAMS-11 | Write system architecture and appointment workflow | Task | Nithin | 18 Nov 2026 | 20 Nov 2026 | 4 | Medium | OHAMS-2 |
+| OHAMS-12 | Create database initialization and seed scripts | Task | Nithin | 19 Nov 2026 | 20 Nov 2026 | 4 | High | OHAMS-2 |
+| OHAMS-13 | Implement transactional appointment booking API | Task | Ashish | 20 Nov 2026 | 23 Nov 2026 | 5 | High | OHAMS-3 |
+| OHAMS-14 | Implement appointment cancellation API | Task | Ashish | 23 Nov 2026 | 24 Nov 2026 | 4 | High | OHAMS-3 |
+| OHAMS-15 | Implement in-app notifications API | Task | Ashish | 23 Nov 2026 | 24 Nov 2026 | 3 | Medium | OHAMS-3 |
+| OHAMS-16 | Implement doctor listing and slot management APIs | Task | Ashish | 20 Nov 2026 | 23 Nov 2026 | 5 | High | OHAMS-3 |
+| OHAMS-17 | Build patient pages and appointment flows | Task | Medha | 19 Nov 2026 | 23 Nov 2026 | 18 | High | OHAMS-4 |
+| OHAMS-18 | Build doctor and admin dashboards | Task | Nithin | 20 Nov 2026 | 23 Nov 2026 | 6 | High | OHAMS-2 |
+| OHAMS-19 | Integrate frontend and backend modules | Task | Ashish | 24 Nov 2026 | 25 Nov 2026 | 8 | High | OHAMS-5 |
+| OHAMS-20 | Run end-to-end test suite and prepare test report | Task | Ashish | 25 Nov 2026 | 26 Nov 2026 | 6 | High | OHAMS-5 |
+| OHAMS-21 | Deploy to Vercel and run production smoke tests | Task | Nithin | 26 Nov 2026 | 26 Nov 2026 | 4 | High | OHAMS-6 |
+| OHAMS-22 | Prepare effort-based project cost estimate | Task | Manya | 18 Nov 2026 | 20 Nov 2026 | 3 | Medium | OHAMS-7 |
+| OHAMS-23 | Prepare project schedule and Gantt chart | Task | Manya | 19 Nov 2026 | 24 Nov 2026 | 5 | Medium | OHAMS-7 |
+| OHAMS-24 | Prepare risk register and mitigation plan | Task | Manya | 20 Nov 2026 | 24 Nov 2026 | 4 | Medium | OHAMS-7 |
+| OHAMS-25 | Compile final project report and contribution summary | Task | Manya | 25 Nov 2026 | 26 Nov 2026 | 8 | Medium | OHAMS-7 |
+| OHAMS-26 | Initialize Next.js project and development environment | Task | Ashish | 17 Nov 2026 | 17 Nov 2026 | 3 | High | — |
 
-- Estimates are person-hours, not elapsed calendar hours.
-- Sunday 22 November is a low-intensity buffer day.
-- Epic rows are parent trackers; their estimate is 0 to avoid double counting story effort.
-- The existing README and CONTRACT define scope; payments, SMS/email, rescheduling and medical records are excluded.
-- Planned start/due dates are dummy schedule fields. Actual finish dates and actual status must be updated only from real work and Jira history.
-- Do not backdate Jira activity or present this plan as actual completed work.
+## Daily work plan
 
-## Acceptance checks
+### 17 Nov (Tue)
+Kick-off; Ashish completes H0 environment; Medha starts requirements; Nithin reviews data model; Manya outlines documentation.
 
-- Contract-compliant auth, doctor/slot, booking, cancellation and notification APIs.
-- Patient, doctor and admin workflows integrated.
-- README T1–T15 tested and test report populated with actual outcomes.
-- Production build succeeds and deployed smoke tests pass.
-- Project documents refer to actual evidence, not assumed outcomes.
+### 18 Nov (Wed)
+Medha completes core requirements and stack choice; Nithin starts schema/architecture; Ashish confirms contract and backend skeleton; Manya drafts cost estimate.
+
+### 19 Nov (Thu)
+Nithin completes schema and starts repeatable seed scripts; Medha builds shared components and patient page skeleton; Manya starts schedule.
+
+### 20 Nov (Fri)
+Nithin closes H2 database/architecture hand-off and builds dashboards; Ashish starts doctors/slots and booking APIs; Medha continues patient flows; Manya starts risk register.
+
+### 21 Nov (Sat)
+Continue patient and role dashboards; backend API implementation and peer review; no new scope.
+
+### 22 Nov (Sun)
+Light buffer only: optional async review, backlog grooming and blocker notes. No full-day estimate is assigned.
+
+### 23 Nov (Mon)
+Complete patient and doctor/admin page hand-offs; finish core booking/slot APIs; Ashish implements cancellation and notifications; Manya continues schedule/risk docs.
+
+### 24 Nov (Tue)
+Close backend H3; begin H7 integration after all H3/H5/H6 branches are merged; fix API mismatches; Manya completes schedule and risk docs.
+
+### 25 Nov (Wed)
+Finish integration; execute T1-T15 and production build; Nithin prepares Vercel deployment; Manya drafts final report structure.
+
+### 26 Nov (Thu)
+Complete test reruns and actual test report; deploy and smoke test after H7 passes; Manya finalizes report using actual test/deployment evidence; sprint review.
+
+## Dependencies and hand-offs
+
+1. **H0 — OHAMS-26:** Ashish creates the runnable project skeleton.
+2. **H1 — OHAMS-8/OHAMS-9:** Medha prepares requirements and stack decision.
+3. **H2 — OHAMS-10/OHAMS-11/OHAMS-12:** Nithin hands over schema, database helpers, seed scripts and architecture.
+4. **H3 — OHAMS-13/OHAMS-14/OHAMS-15/OHAMS-16:** Ashish completes backend routes using H2.
+5. **H4/H5 — OHAMS-4/OHAMS-17:** Medha hands over shared UI components and patient pages.
+6. **H6 — OHAMS-18:** Nithin hands over doctor/admin dashboards.
+7. **H7 — OHAMS-19/OHAMS-20:** Ashish integrates and executes the test suite after H3, H5 and H6 are merged.
+8. **H8 — OHAMS-21:** Nithin deploys only after integration/build/test gates pass.
+9. **H9 — OHAMS-22/OHAMS-23/OHAMS-24/OHAMS-25:** Manya completes the final submission pack using the test report, deployment URL and real Jira/Git history.
+
+## Jira setup notes
+
+- Suggested initial status for every task: **To Do**. Update to In Progress / Done only when that reflects real activity.
+- Use the planned start and due dates above as schedule fields, not worklog entries.
+- Estimates are person-hours. They do not imply that the work was actually performed.
+- The parent/epic column is included for Jira CSV import mapping; epic rows themselves carry zero effort.
+- Do not fabricate actual start, actual finish, worklogs, comments or completion status.
+- The repository currently documents the key-to-owner mapping. This planning file does not create or modify live Jira issues.
+
+## Assumptions and scope
+
+- Sunday 22 November is treated as a light buffer/review day; no full-day task estimate is allocated to it.
+- Existing README and CONTRACT define the product scope. Payments, SMS/email, rescheduling, video calls, medical records, reviews and password reset remain out of scope.
+- A story's due date is the planned hand-off date. Same-day dependencies require sequencing within the day (for example, deployment after tests pass).
+- The final report must use actual test and deployment outcomes, not assumed results.
